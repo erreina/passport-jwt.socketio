@@ -1,0 +1,41 @@
+{
+  "name": "passport-jwt.socketio",
+  "version": "0.1.0",
+  "description": "A passport-jwt middleware for socket.io",
+  "license": "MIT",
+  "author": {
+    "name": "Ernesto Rodriguez Reina",
+    "email": "erreina@gmail.com"
+  },
+  "keywords": [
+    "passport",
+    "passport-jwt",
+    "socket.io",
+    "jwt",
+    "socket"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erreina/passport-jwt.socketio.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^11.2.0",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "http": "0.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "should": "^11.2.1",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  }
+}
