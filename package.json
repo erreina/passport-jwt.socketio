@@ -1,6 +1,6 @@
 {
   "name": "passport-jwt.socketio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A passport-jwt middleware for socket.io",
   "license": "MIT",
   "author": {
