@@ -18,18 +18,26 @@
     "type": "git",
     "url": "https://github.com/erreina/passport-jwt.socketio.git"
   },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
     "lint": "eslint ./"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.2.0",
     "passport-jwt": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
     "http": "0.0.0",
     "jsonwebtoken": "^7.4.1",
     "mocha": "^3.4.2",
